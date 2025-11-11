@@ -1,0 +1,43 @@
+# ===== Python & Django =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# ===== Virtual Environment =====
+backend/.venv/
+venv/
+env/
+
+# ===== Migrations =====
+*/migrations/
+!*/migrations/__init__.py
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Static/Media Uploads =====
+*/uploads/
+media/
+staticfiles/
+
+# ===== Other unwanted apps =====
+backend/desining/
+backend/tables/
+
+# ===== Environment Files =====
+.env
+
+# ===== Optional: Ignore temporary / backup files =====
+*.bak
+*.swp
+*.swo
+*.tmp
+*.log
