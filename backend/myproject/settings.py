@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'authendication',
-    'tables',
     'statictables',
     'django.contrib.admin',
     'django.contrib.auth',
